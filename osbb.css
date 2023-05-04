@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: antiquewhite;
+}
+
+img {
+    width: 1200px;
+    height: 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1150px;
+    border: 2px solid blue;
+    margin: 10px 0 auto;
+    padding: 0 72px;
+    margin-bottom: 50px;
+}
+
+.menu a {
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    /* color: chartreuse; */
+}
+
+.saitosbb {
+    color: red;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 950px;
+}
+
+.box1 {
+    display: flex;
+}
+
+.box2 {
+    background: burlywood;
+    width: 230px;
+    box-sizing: 100%;
+}
+
+.box2 a {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgb(245, 178, 9);
+}
+
+ol {
+    padding: 15px 40px 0px 55px;
+    margin-top: 15px;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+
+li {
+    padding-bottom: 40px;
+}
+
+li:nth-child(4) {
+    background: #db1717;
+}
+
+h1 {
+    color: chartreuse;
+    padding-left: 20px;
+}
+
+p {
+    max-width: 1150px;
+}
+
+.a1 {
+    color: #db1717;
+    padding: 100px;
+}
+
+table {
+    background: yellow;
+    margin: auto;
+
+}
+
+th {
+    border: 3px solid blue;
+    /* background: #db1717; */
+
+}
+
+.tab1:hover {
+    background: teal;
+    color: rgb(121, 228, 14);
+}
