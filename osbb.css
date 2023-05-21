@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: antiquewhite;
+    background-color: rgb(212, 191, 250);
 }
 
 img {
@@ -16,7 +16,7 @@ img {
     display: flex;
     justify-content: space-around;
     max-width: 1150px;
-    border: 2px solid blue;
+    border: 3px solid rgb(15, 15, 16);
     margin: 10px 0 auto;
     padding: 0 72px;
     margin-bottom: 50px;
@@ -26,7 +26,7 @@ img {
     padding: 15px;
     font-size: 15px;
     text-decoration: none;
-    background-color: antiquewhite;
+    background-color: rgb(212, 191, 250);
     /* color: chartreuse; */
 }
 
